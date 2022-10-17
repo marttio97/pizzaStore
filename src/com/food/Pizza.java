@@ -1,16 +1,16 @@
-package com.pizza;
+package com.food;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pizza {
+public class Pizza implements Food {
     List<String> Toppings = new ArrayList<>();
 
-    public void setToppings(List<String> toppings) {
+    public void setIngredients(List<String> toppings) {
         Toppings.addAll(toppings);
     }
 
-    public List<String> getToppings() {
+    public List<String> getIngredients() {
         return Toppings;
     }
 }

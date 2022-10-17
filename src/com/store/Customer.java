@@ -1,26 +1,29 @@
 package com.store;
 
-import com.pizza.Pizza;
+import com.food.Food;
+import com.food.Pizza;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Customer {
-    private Pizza pizza;
+    private Food pizza;
     private List<String> order = new ArrayList<>();
 
-    private List<Pizza> readyOrder = new ArrayList<>();
+    private List<Food> readyOrder = new ArrayList<>();
 
-    public void Order()
+    public String Order()
     {
-        PizzaStore store = new PizzaStore();
 
-        for (String product : order) {
-            pizza = store.OrderPizza(product);
-            readyOrder.add(pizza);
-        }
 
-        InspectPizzaToppings();
+        return order.toString();
+//
+//        for (String product : order) {
+//            pizza = store.Order(product);
+//            readyOrder.add(pizza);
+//        }
+//
+//        InspectPizzaToppings();
     }
 
     public void add(String product) {
@@ -37,8 +40,8 @@ public class Customer {
             System.out.println("Order is empty.");
         }
 
-        for (Pizza pizza : readyOrder) {
-            System.out.println(pizza.getToppings());
+        for (Food pizza : readyOrder) {
+            System.out.println(pizza.getIngredients());
         }
     }
 
