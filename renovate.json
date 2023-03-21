@@ -6,8 +6,12 @@
     "helpers:pinGitHubActionDigests"
   ],
    "packageRules": [{
-    "matchDepTypes": ["action"],
-    "pinDigests": true
+   "matchPackageNames": ["bridgecrewio/checkov-action"],
+   "allowedVersions": "<11"
+    },
+   {
+   "matchPackageNames": ["actions/checkout"],
+   "allowedVersions": "<=3.2.0"
     }
   ]
 }
