@@ -9,4 +9,5 @@
     "matchDepTypes": ["action"],
     "pinDigests": true
     }
+  ]
 }
