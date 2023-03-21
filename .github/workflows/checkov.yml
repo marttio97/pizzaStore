@@ -13,8 +13,8 @@ jobs:
     steps:
       
     - name: Checkout repo
-      uses: actions/checkout@f25a3a9f25bd5f4c5d77189cab02ff357b5aedeb 
+      uses: actions/checkout@f25a3a9f25bd5f4c5d77189cab02ff357b5aedeb # renovate: tag=v3.2.0
 
     - name: Run Checkov action
       id: checkov
-      uses: bridgecrewio/checkov-action@f93e43550d669f41ed6fcfa423a3fcb7484a36cd 
+      uses: bridgecrewio/checkov-action@f93e43550d669f41ed6fcfa423a3fcb7484a36cd # renovate: tag=v11
