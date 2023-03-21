@@ -17,4 +17,4 @@ jobs:
 
     - name: Run Checkov action
       id: checkov
-      uses: bridgecrewio/checkov-action@f93e43550d669f41ed6fcfa423a3fcb7484a36cd
+      uses: bridgecrewio/checkov-action@f93e43550d669f41ed6fcfa423a3fcb7484a36cd # renovate: tag=v10
