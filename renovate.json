@@ -5,7 +5,7 @@
     "config:base"
   ],
   "packageRules": [{
-     "matchPackageNames": ["checkov-action"],
+     "matchPackageNames": ["bridgecrewio/checkov-action"],
      "allowedVersions": "<11"
       }
   ]
