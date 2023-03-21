@@ -2,6 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
-    "github>marttio97/renovate-repo//default-renovate"
+    "github>marttio97/renovate-repo"
   ]
 }
