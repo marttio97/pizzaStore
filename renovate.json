@@ -4,14 +4,5 @@
   "extends": [
     "config:base",
     "helpers:pinGitHubActionDigests"
-  ],
-   "packageRules": [{
-   "matchPackageNames": ["bridgecrewio/checkov-action"],
-   "allowedVersions": "<11"
-    },
-   {
-   "matchPackageNames": ["actions/checkout"],
-   "allowedVersions": "<=3.2.0"
-    }
   ]
 }
