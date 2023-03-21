@@ -13,7 +13,7 @@ jobs:
     steps:
       
     - name: Checkout repo
-      uses: actions/checkout@master
+      uses: actions/checkout@f25a3a9f25bd5f4c5d77189cab02ff357b5aedeb
 
     - name: Run Checkov action
       id: checkov
