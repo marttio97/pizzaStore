@@ -4,5 +4,9 @@
   "extends": [
     "config:base",
     "helpers:pinGitHubActionDigests"
-  ]
+  ],
+   "packageRules": [{
+    "matchDepTypes": ["action"],
+    "pinDigests": true
+    }
 }
