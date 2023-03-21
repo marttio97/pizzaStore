@@ -1,7 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "commitMessagePrefix": "feat: AUTOMATION",
   "extends": [
-    "config:base",
-    "github>marttio97/renovate-repo"
+    "config:base"
+  ]
+  "packageRules": [{
+   "matchPackageNames": ["checkov-action"],
+   "allowedVersions": "<11"
+    }
   ]
 }
