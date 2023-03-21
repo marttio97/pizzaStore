@@ -2,7 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "commitMessagePrefix": "feat: AUTOMATION",
   "extends": [
-    "config:base"
+    "config:base",
+    "helpers:pinGitHubActionDigests"
   ],
   "packageRules": [{
      "matchPackageNames": ["bridgecrewio/checkov-action"],
