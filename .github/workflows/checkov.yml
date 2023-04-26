@@ -15,6 +15,6 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@f25a3a9f25bd5f4c5d77189cab02ff357b5aedeb 
     - name: Super-Linter
-      uses: github/super-linter@v5.0.0
+      uses: github/super-linter/slim@01d3218744765b55c3b5ffbb27e50961e50c33c5
 
       
